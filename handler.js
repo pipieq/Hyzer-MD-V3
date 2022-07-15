@@ -736,7 +736,7 @@ module.exports = {
         await this.reply(msg.key.remoteJid, `
 Terdeteksi @${participant.split`@`[0]} telah menghapus pesan
 Untuk mematikan fitur ini, ketik
-*Fuck You*
+*.enable antidelete*
 `.trim(), msg, {
             mentions: [participant]
         })
