@@ -9,4 +9,4 @@ handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(tiktok)$/i
 
-module.exports = handler
+module.exports = 
